@@ -34,15 +34,15 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   font-style: normal;
   font-size: 18px;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-transform: uppercase;
 }
-.logo-accent {
-  color: #4d5ae5;
+.studio {
+  color: #2e2f42;
   text-transform: uppercase;
 }
 .nav-list {
@@ -53,10 +53,14 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-list:hover {
+.nav-list:hover,
+.nav-list:active,
+.nav-list:focus {
   color: #404bbf;
 }
-.adress-links:hover {
+.adress-links:hover,
+.adress-links:focus,
+.adress-links:active {
   color: #404bbf;
 }
 /* #endregion top-line */
@@ -70,6 +74,7 @@ a {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   font-style: normal;
   color: #ffffff;
@@ -79,43 +84,38 @@ a {
   font-weight: 500;
   letter-spacing: 0.04em;
   font-style: normal;
+  line-height: 1.5;
   color: #ffffff;
   background-color: #4d5ae5;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
 }
 /* #endregion hero */
 
 /* #region solutions */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 .sol-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   font-style: normal;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 /* #endregion solutions */
 
 /* #region team */
+.team-composition {
+  background-color: #f4f4fd;
+}
 .team-title {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   font-style: normal;
 }
@@ -124,7 +124,11 @@ a {
   font-style: normal;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.description {
+  font-size: 16px;
 }
 .team-list {
   background-color: #ffffff;
@@ -139,6 +143,8 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -146,6 +152,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 /* #endregion portfolio*/
@@ -158,9 +165,12 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-accent {
   color: #f4f4fd;
 }
 .footer-text {
